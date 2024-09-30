@@ -7,6 +7,7 @@ import AboutPage from './landing_page/about/Aboutpage.jsx'
 import Pricingpage from './landing_page/pricing/Pricingpage.jsx'
 import Supportpage from './landing_page/support/Supportpage.jsx'
 import Productpage from './landing_page/product/product.jsx'
+import Notfound from './landing_page/Notfound.jsx'
 import Navbar from './landing_page/Navbar.jsx'
 import Footer from './landing_page/Footer.jsx'
 
@@ -20,6 +21,8 @@ createRoot(document.getElementById('root')).render(
     <Route path='/pricing' element={<Pricingpage/>}></Route>
     <Route path='/product' element={<Productpage/>}></Route>
     <Route path='/support' element={<Supportpage/>}></Route>
+    <Route path='*' element={<Notfound/>}></Route>
+
  </Routes>
  <Footer/>
 </BrowserRouter>
