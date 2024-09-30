@@ -12,10 +12,10 @@ function Team() {
         </div>
       </div>
 
-      <div className="container p-3">
+      <div className="container p-3 mb-5">
         <div className="row p-3">
             <div className="col-6 text-center" >
-                <img src="images/nithinKamath.jpg" alt="nithinKamath"style={{width:"60%",borderRadius:"100%"}} />
+                <img src="images/nithinKamath.jpg" alt="nithinKamath"style={{width:"50%",borderRadius:"100%"}} />
             
             <h4 className="mt-4 text-muted">NithinKamath</h4>
             <h6 className="text-muted">Fouder,CEO</h6>
