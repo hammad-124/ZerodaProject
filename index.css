@@ -8,3 +8,24 @@ body{
   font-family: "Montserrat", sans-serif;
   
 }
+#support-div{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+#support-div a{
+  color: white;
+  line-height: 2;
+  margin-left: 5px;
+  margin-right:7px ;
+}
+#support-div input{
+  padding: 20px 50px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+#support-wrap{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
